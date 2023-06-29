@@ -1,0 +1,27 @@
+{
+  "name": "coderhouse-backend-fp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --trace-uncaught ./src/app.js",
+    "dev": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "es6",
+    "backend"
+  ],
+  "author": "Rudy Axel Sarabia Veliz",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "express-router": "^0.0.1",
+    "socket.io": "^4.6.2",
+    "uuid": "^9.0.0"
+  }
+}

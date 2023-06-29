@@ -1,0 +1,45 @@
+<div id="addProduct">
+  <h1>Add New Product</h1>
+
+  <form id="addProductForm">
+    <label for="title">Title:</label>
+    <input type="text" id="title" name="title" required /><br /><br />
+
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" required></textarea><br /><br
+    />
+
+    <label for="code">Code:</label>
+    <input type="text" id="code" name="code" required /><br /><br />
+
+    <label for="price">Price:</label>
+    <input type="number" id="price" name="price" required /><br /><br />
+
+    <label for="stock">Stock:</label>
+    <input type="number" id="stock" name="stock" required /><br /><br />
+
+    <label for="category">Category:</label>
+    <input type="text" id="category" name="category" required /><br /><br />
+
+    <label for="thumbnails">Thumbnails:</label>
+    <input type="text" id="thumbnails" name="thumbnails" /><br /><br />
+
+    <input type="submit" value="Submit" />
+  </form>
+</div>
+<hr class="solid">
+<div id="addProduct">
+  <h1>Delete Product</h1>
+
+  <form id="deleteProductForm">
+    <label for="productID">ProductID:</label>
+    <input type="text" id="productID" name="productID" required /><br /><br />
+
+    <input type="submit" value="Submit" />
+  </form>
+</div>
+<hr class="solid">
+<div>
+  <h1>Products</h1>
+  <div id="products"></div>
+</div>
